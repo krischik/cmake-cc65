@@ -2,7 +2,9 @@
 # Copyright (C) 2021 Tentei Ltd.
 # DISTRIBUTED AS PUBLIC DOMAIN. No restrictions apply.
 
-include(Compiler/CC65)
+message(">> CC65-C.cmake ")
+
+include(Library/CMake/Atari/CMake/Compiler/CC65.cmake)
 
 set(CMAKE_C_COMPILER_ID_RUN YES)
 set(CMAKE_C_COMPILER_ID_WORKS YES)
